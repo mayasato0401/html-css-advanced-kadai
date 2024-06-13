@@ -17,7 +17,7 @@ nav {
 	font-size: 34px;
 	margin: auto;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -43,21 +43,8 @@ p {
 	font-size: 18px;
 }
 
-#nav-left {
-	float: left;
-	margin: 0;
-	/* border: solid; */
-	/* border-color: black;
-	border-width: 1px;	 */
-}
-
-#nav-right {
-	float: right;
-	margin: 0;
-}
-
 a:link {
-	color: black
+	color: black;
 	text-decoration: none;
 }
 
@@ -67,7 +54,7 @@ a:visited {
 
 a:hover {
 	color: black;
-	text-decoration: under-line ;
+	text-decoration: underline ;
 }
 
 a:active {
@@ -79,14 +66,35 @@ a:active {
 	heigth: 400px;
 }
 
+#about > h2 {
+	text-align: center;
+}
 
-#about-profile > p::after {
+#about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about-picture {
+	border-radius: 50%;
+	heigth: 200px;
+	width: 200px;
+}
+
+#about-profile > p::before {
 	content: "●";
 }
 
-#works-picture {
-display: flex;
-justify-content: center:
+#works > h2 {
+	text-align: center;
+}
+
+
+#works {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 footer {
